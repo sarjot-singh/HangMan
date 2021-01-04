@@ -24,10 +24,6 @@ g++ HangManDriver.cpp HangMan.cpp -std=c++11
 
 3. The instructions to play the game will be given if it runs successfully
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
 ## Authors
 
 * **Sarjot Singh** - (https://github.com/sarjot-singh)
