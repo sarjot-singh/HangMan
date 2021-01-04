@@ -15,13 +15,14 @@ g++ compiler
 Begin by loading files into code editor of choice. An example of how to run on Visual Studio Code is given below.
 
 
-1. Open HangManDriver.cpp with other files in the same folder
+1. Open HangManDriver.cpp with the other files in the same folder
 
+2. To run the game, enter the command below
 ```
-example
+g++ HangManDriver.cpp HangMan.cpp -std=c++11
 ```
 
-2.
+3. The instructions to play the game will be given if it runs successfully
 
 ## Deployment
 
@@ -33,7 +34,7 @@ Add additional notes about how to deploy this on a live system
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the GNU GENERAL PUBLIC License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
 
