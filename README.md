@@ -1,6 +1,6 @@
 # HangMan
 
-Unique code that runs the entire game with one function call throughout multiple files of code. The code is flexible and new elements can be added.
+Unique code with structured organization that runs the entire game with one function call even with multiple files of code.
 
 ## Getting Started
 
