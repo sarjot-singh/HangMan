@@ -4,7 +4,19 @@ Unique code that runs the entire game with one function call throughout multiple
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+### Game Basics
+
+1. Two player game. Player 1 who thinks of the word and Player 2 the guesser
+2. Game starts with a series of empty slots
+3. On each turn, Player 2 guesses a letter. If the letter belongs to the word, Player 1 adds it to the corresponding position.
+4. If Player 2 guesses a letter which does not belong to the word, Player 1 draws one component of the hangman diagram.
+5. At any time during the game, Player 2 can guess the entire word (instead of just guessing a single character). If the guess is correct, the game is over.
+6. The game is over when either Player 2 guesses the word (character by character or the entire word at once) or when the hangman diagram is completed.
+
+
+### Note:
+- The file "words.txt" can be modified and the program will randomly pick one word at the start of each game. Each word contains a hint.
+- The file "leaderboardfinal" contains the time (in seconds) it took to guess a word for each player.
 
 ### Prerequisites
 
