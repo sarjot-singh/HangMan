@@ -26,7 +26,7 @@ g++ HangManDriver.cpp HangMan.cpp -std=c++11
 
 ## Authors
 
-* **Sarjot Singh** - (https://github.com/saviss33)
+* **Savi Singh** - (https://github.com/saviss33)
 
 ## License
 
